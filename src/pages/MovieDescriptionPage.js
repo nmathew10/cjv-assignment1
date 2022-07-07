@@ -45,7 +45,7 @@ const DescriptionPage = () => {
             <br />
             <b>Synopsis : </b> <br /> {movie.description}
             <br/>
-            <button className='btn'>Watch trailor</button> 
+            <button className='btn'>Watch trailer</button> 
             <br/>
             <button className='btn'>Buy now ${movie.price}</button>
             <button className='btn'>Rent  $3.99</button>

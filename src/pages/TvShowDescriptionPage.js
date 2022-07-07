@@ -43,7 +43,7 @@ const TvShowDescriptionPage = () => {
                         <br />
                         <b>Synopsis : </b> <br /> {tvshow.description}
                         <br />
-                        <button className='btn'>Watch trailor</button>
+                        <button className='btn'>Watch trailer</button>
                         <br />
                         <button className='btn'>Buy now ${tvshow.price}</button>
                         <button className='btn'>Rent  $3.99</button>
