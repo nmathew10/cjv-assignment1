@@ -1,0 +1,247 @@
+{
+  "tvshows": [
+    {
+      "id": 1,
+      "title": "Sherlock",
+      "description": "Sherlock Holmes lives in 21st-century London, a city filled with mystery, crime, and deceit. The back streets are alive with robbers, blackmailers, smugglers, and serial killers. When the police are desperate they call upon Mr Sherlock Holmes and his unconventional methods of deduction to shed light on the matter.",
+      "isFeatured": true,
+      "price": 10.99,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMWY3NTljMjEtYzRiMi00NWM2LTkzNjItZTVmZjE0MTdjMjJhL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTQ4NTc5OTU@._V1_.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Stranger Things",
+      "description": "A young boy, Will Byers, goes missing near a top-secret government laboratory. That same night, a strange young girl appears at a diner in the town. She has telekinetic powers and is on the run from the laboratory.",
+      "isFeatured": true,
+      "price": 10.99,
+      "poster": "https://m.media-amazon.com/images/I/8142NLEI3CL._AC_SY879_.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Brooklyn 99",
+      "description": "Comedy series following the exploits of Det. Jake Peralta and his diverse, lovable colleagues as they police the NYPD's 99th Precinct. Captain Ray Holt takes over Brooklyn's 99th precinct, which includes Detective Jake Peralta, a talented but carefree detective who's used to doing whatever he wants.",
+      "isFeatured": false,
+      "price": 10.99,
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzVkYWY4NzYtMWFlZi00YzkwLThhZDItZjcxYTU4ZTMzMDZmXkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The big bang theory",
+      "description": "Comedy series about brilliant physicists, Leonard and Sheldon, who are the kind of beautiful minds that understand how the universe works. But none of that genius helps them interact with people, especially women. All this begins to change when a free-spirited beauty named Penny moves in next door.",
+      "isFeatured": false,
+      "price": 10.99,
+      "poster": "https://www.themoviedb.org/t/p/original/euKFiO5M125rpngFRBbSW83beeI.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Game of Thrones",
+      "description": "Years after a rebellion spurred by a stolen bride to be and the blind ambitions of a mad King, Robert of the house Baratheon (Mark Addy) sits on the much desired Iron Throne. In the mythical land of Westeros, nine noble families fight for every inch of control and every drop of power.",
+      "isFeatured": true,
+      "price": 10.99,
+      "poster": "https://mypostercollection.com/wp-content/uploads/2018/08/Game-Of-Thrones-Poster-MyPosterCollection.com-33.jpg"
+    },
+    {
+      "id": 6,
+      "title": "F.R.I.E.N.D.S",
+      "description": "Six young (20-something) people from New York City (Manhattan), on their own and struggling to survive in the real world, find the companionship, comfort and support they get from each other to be the perfect antidote to the pressures of life.",
+      "isFeatured": true,
+      "price": 10.99,
+      "poster": "https://m.media-amazon.com/images/I/416J-vc9YJL._AC_.jpg"
+    },
+    {
+      "id": 7,
+      "title": "How I met your mother",
+      "description": "The series revolves around Ted Mosby (Josh Radnor) who in the year of 2030 tells the story to his son and daughter how he met their mother (hence the title). While living in New York City and working as an architect, the narrative deals with his best friends, including the long-lasting couple Marshall Eriksen (Jason Segel) and Lily Aldrin (Alyson Hannigan); the eccentric, womanizer-playboy Barney Stinson (Neil Patrick Harris); and news anchor Robin Scherbatsky (Cobie Smulders). The series explores many storylines, including a love triangle between Robin, Ted, and Barney; Marshall and Lily's relationship; as well as the careers of the characters and so much more. The series is narrated by Bob Saget through flashbacks from the future.",
+      "isFeatured": false,
+      "price": 10.99,
+      "poster": "https://i.redd.it/6wbukl5yc0u21.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Modern Family",
+      "description": "Parents Phil and Claire yearn for an honest, open relationship with their three kids, but a daughter who is trying to grow up too fast, another who is too smart for her own good, and a rambunctious young son make it challenging.",
+      "isFeatured": false,
+      "price": 10.99,
+      "poster": "https://imgc.allpostersimages.com/img/posters/modern-family-tv_u-L-F5559H0.jpg?artHeight=550&artPerspective=n&artWidth=550"
+    },
+    {
+      "id": 9,
+      "title": "Lucifer",
+      "description": "Based upon the characters created by Neil Gaiman, Sam Kieth and Mike Dringenberg, LUCIFER is the story of the original fallen angel. Bored and unhappy as the Lord of Hell, LUCIFER MORNINGSTAR has abandoned his throne and retired to L.A., where he owns Lux, an upscale nightclub.",
+      "isFeatured": true,
+      "price": 10.99,
+      "poster": "https://movieposters2.com/images/1616249-b.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Money Heist",
+      "description": "Professor (Álvaro Morte), a criminal mastermind who brings eight thieves together to take hostages and lock themselves in the Royal Mint of Spain as he manipulates the police to carry out his plan.",
+      "isFeatured": true,
+      "price": 10.99,
+      "poster": "https://m.media-amazon.com/images/I/71tqf702KNL._SX679_.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Outlander",
+      "description": "An English combat nurse from 1945 is mysteriously swept back in time to 1743. Follows the story of Claire Randall, a married combat nurse from 1945 who is mysteriously swept back in time to 1743, where she is immediately thrown into an unknown world in which her life is threatened.",
+      "isFeatured": true,
+      "price": 10.99,
+      "poster": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/5-outlander-jamie-fraser-clare-fraiser-francesca-mungo.jpg"
+    },
+    {
+      "id": 12,
+      "title": "The Witcher",
+      "description": "The Witcher follows the story of Geralt of Rivia, a solitary monster hunter, who struggles to find his place in a world where people often prove more wicked than monsters and beasts.",
+      "isFeatured": false,
+      "price": 10.99,
+      "poster": "https://images.sellbrite.com/production/152272/P6535-FRALU029/2683ec32-f85d-5ab6-af3d-dcb4e20203c0.jpg"
+    },
+    {
+      "id": 13,
+      "title": "The vampire diaries",
+      "description": "The series is set in the fictional town of Mystic Falls, Virginia, a town charged with supernatural history. It follows the life of Elena Gilbert (Nina Dobrev), a teenage girl who has just lost both parents in a car accident, as she falls in love with a 162-year-old vampire named Stefan Salvatore (Paul Wesley).",
+      "isFeatured": false,
+      "price": 10.99,
+      "poster":"https://m.media-amazon.com/images/I/812YVXK9kvL._AC_SY606_.jpg" 
+    },
+    {
+      "id": 14,
+      "title": "Sex Education",
+      "description": "Sex Education is a British comedy-drama streaming television series created by Laurie Nunn for Netflix. The series follows the lives of the students, staff and parents of the fictional Moordale Secondary School as they contend with various personal dilemmas, often related to sexual intimacy.",
+      "isFeatured": false,
+      "price": 10.99,
+      "poster": "https://media-cache.cinematerial.com/p/500x/ma3rvpbf/sex-education-british-movie-poster.jpg?v=1578440880"
+    }
+  ],
+  "movies": [
+    {      
+        "id": 1,
+        "title": "Avengers",
+        "description": "When Thor's evil brother, Loki, gains access to the unlimited power of the energy cube called the Tesseract, Nick Fury, director of S.H.I.E.L.D., initiates a superhero recruitment effort to defeat the unprecedented threat to Earth. Joining Fury's dream team are Iron Man, Captain America, the Hulk, Thor, the Black Widow and Hawkeye.",
+        "isFeatured": false,
+        "price": 10.99,
+        "poster": "https://s3.amazonaws.com/static.rogerebert.com/uploads/movie/movie_poster/the-avengers-2012/large_cezWGskPY5x7GaglTTRN4Fugfb8.jpg"      
+    },
+    {      
+      "id": 2,
+      "title": "Doctor Strange",
+      "description": "Dr. Stephen Strange's life changes after a car accident robs him of the use of his hands. When traditional medicine fails him, he looks for healing, and hope, in a mysterious enclave. He quickly learns that the enclave is at the front line of a battle against unseen dark forces bent on destroying reality. Before long, Strange is forced to choose between his life of fortune and status or leave it all behind to defend the world as the most powerful sorcerer in existence.",
+      "isFeatured": true,
+      "price": 10.99,
+      "poster": "https://cps-static.rovicorp.com/2/Open/TMDB4_2462/Program/24377830/_derived_jpg_q90_310x470_m0/1gAX6lJOF0fywb42utSvv6znjI1.jpg"      
+    },
+    {      
+      "id": 3,
+      "title": "Avengers: Endgame",
+      "description": "The grave course of events set in motion by Thanos, that wiped out half the universe and fractured the Avengers ranks, compels the remaining Avengers to take one final stand in Marvel Studios' grand conclusion to twenty-two films ",
+      "isFeatured": true,
+      "price": 10.99,
+      "poster": "https://lumiere-a.akamaihd.net/v1/images/p_avengersendgame_19751_e14a0104.jpeg?region=0%2C0%2C540%2C810"      
+    },
+    {      
+      "id": 4,
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "description": "Harry Potter's third year at Hogwarts starts off badly when he learns deranged killer Sirius Black has escaped from Azkaban prison and is bent on murdering the teenage wizard. While Hermione's cat torments Ron's sickly rat, causing a rift among the trio, a swarm of nasty Dementors is sent to protect the school from Black. A mysterious new teacher helps Harry learn to defend himself, but what is his secret tie to Sirius Black?",
+      "isFeatured": true,
+      "price": 10.99,
+      "poster": "https://images.sellbrite.com/production/152272/P5161-FR003/c86029ba-9835-58fe-9e81-30858a6315b7.jpg"      
+    },
+    {      
+      "id": 5,
+      "title": "Harry Potter and the Half blood price",
+      "description": "As Death Eaters wreak havoc in both Muggle and Wizard worlds, Hogwarts is no longer a safe haven for students. Though Harry suspects there are new dangers lurking within the castle walls, Dumbledore is more intent than ever on preparing the young wizard for the final battle with Voldemort. Meanwhile, teenage hormones run rampant through Hogwarts, presenting a different sort of danger. Love may be in the air, but tragedy looms, and Hogwarts may never be the same again.",
+      "isFeatured": false,
+      "price": 10.99,
+      "poster": "https://image.tmdb.org/t/p/original//z7uo9zmQdQwU5ZJHFpv2Upl30i1.jpg"      
+    },
+    {      
+      "id": 6,
+      "title": "Pirates of the Caribbean: Curse of the black pearl",
+      "description": "Capt. Jack Sparrow arrives at Port Royal in the Caribbean without a ship or crew. His timing is inopportune, however, because later that evening the town is besieged by a pirate ship. The pirates kidnap the governor's daughter, Elizabeth, who's in possession of a valuable coin that is linked to a curse that has transformed the pirates into the undead. A gallant blacksmith in love with Elizabeth allies with Sparrow in pursuit of the pirates.",
+      "isFeatured": true,
+      "price": 10.99,
+      "poster": "https://i.pinimg.com/originals/e0/b2/21/e0b2212de5ee2c107565879c63224c41.jpg"      
+    },
+    {      
+      "id": 7,
+      "title": "Pirates of the Caribbean: Dead man's chest",
+      "description": "When ghostly pirate Davy Jones comes to collect a blood debt, Capt. Jack Sparrow must find a way to avoid his fate lest his soul be damned for all time. Nevertheless, the wily ghost manages to interrupt the wedding plans of Jack's friends Will Turner and Elizabeth Swann.",
+      "isFeatured": false,
+      "price": 10.99,
+      "poster": "https://www.themoviedb.org/t/p/original/l3peI54mf6Z9EBSvS3hnRmOBbFT.jpg"      
+    },
+    {      
+      "id": 8,
+      "title": "Avatar",
+      "description": "On the lush alien world of Pandora live the Na'vi, beings who appear primitive but are highly evolved. Because the planet's environment is poisonous, human/Na'vi hybrids, called Avatars, must link to human minds to allow for free movement on Pandora. Jake Sully, a paralyzed former Marine, becomes mobile again through one such Avatar and falls in love with a Na'vi woman. As a bond with her grows, he is drawn into a battle for the survival of her world.",
+      "isFeatured": true,
+      "price": 10.99,
+      "poster": "https://movieposters2.com/images/764446-b.jpg"      
+    },
+    {      
+      "id": 9,
+      "title": "Now you see me",
+      "description": "On the lush alien world of Pandora live the Na'vi, beings who appear primitive but are highly evolved. Because the planet's environment is poisonous, human/Na'vi hybrids, called Avatars, must link to human minds to allow for free movement on Pandora. Jake Sully, a paralyzed former Marine, becomes mobile again through one such Avatar and falls in love with a Na'vi woman. As a bond with her grows, he is drawn into a battle for the survival of her world.",
+      "isFeatured": false,
+      "price": 10.99,
+      "poster": "https://media-cache.cinematerial.com/p/500x/jjytrk72/now-you-see-me-movie-poster.jpg?v=1456476864"      
+    },
+    {      
+      "id": 10,
+      "title": "Inception",
+      "description": "Dom Cobb is a thief with the rare ability to enter people's dreams and steal their secrets from their subconscious. His skill has made him a hot commodity in the world of corporate espionage but has also cost him everything he loves. Cobb gets a chance at redemption when he is offered a seemingly impossible task: Plant an idea in someone's mind. If he succeeds, it will be the perfect crime, but a dangerous enemy anticipates Cobb's every move.",
+      "isFeatured": false,
+      "price": 10.99,
+      "poster": "https://i.etsystatic.com/6232891/r/il/37da98/263664878/il_570xN.263664878.jpg"      
+    },
+    {      
+      "id": 11,
+      "title": "Spider Man",
+      "description": "Spider-Man centers on student Peter Parker (Tobey Maguire) who, after being bitten by a genetically-altered spider, gains superhuman strength and the spider-like ability to cling to any surface. He vows to use his abilities to fight crime, coming to understand the words of his beloved Uncle Ben: With great power comes great responsibility.",
+      "isFeatured": false,
+      "price": 10.99,
+      "poster": "https://picfiles.alphacoders.com/362/362470.jpg"      
+    },
+    {      
+      "id": 12,
+      "title": "E.T-The Extra-Terrestrial",
+      "description": "After a gentle alien becomes stranded on Earth, the being is discovered and befriended by a young boy named Elliott (Henry Thomas). Bringing the extraterrestrial into his suburban California house, Elliott introduces E.T., as the alien is dubbed, to his brother and his little sister, Gertie (Drew Barrymore), and the children decide to keep its existence a secret. Soon, however, E.T. falls ill, resulting in government intervention and a dire situation for both Elliott and the alien.",
+      "isFeatured": false,
+      "price": 10.99,
+      "poster": "https://m.media-amazon.com/images/I/61cfxM38p6L._AC_SY741_.jpg"      
+    },
+    {      
+      "id": 13,
+      "title": "The Dark Knight",
+      "description": "With the help of allies Lt. Jim Gordon (Gary Oldman) and DA Harvey Dent (Aaron Eckhart), Batman (Christian Bale) has been able to keep a tight lid on crime in Gotham City. But when a vile young criminal calling himself the Joker (Heath Ledger) suddenly throws the town into chaos, the caped Crusader begins to tread a fine line between heroism and vigilantism.",
+      "isFeatured": true,
+      "price": 10.99,
+      "poster": "https://images2.vudu.com/poster2/141389-338"      
+    },
+    {      
+      "id": 14,
+      "title": "Iron Man",
+      "description": "A billionaire industrialist and genius inventor, Tony Stark (Robert Downey Jr.), is conducting weapons tests overseas, but terrorists kidnap him to force him to build a devastating weapon. Instead, he builds an armored suit and upends his captors. Returning to America, Stark refines the suit and uses it to combat crime and terrorism.",
+      "isFeatured": false,
+      "price": 10.99,
+      "poster": "https://live.staticflickr.com/4088/4847356643_76ae05a46e_c.jpg"      
+    }
+  ],
+  "slides" : [
+    {
+      "image":"https://markmeets.com/wp-content/uploads/2022/03/best-tv-shows-to-binge-watch-social.png"
+    },
+    {
+      "image": "https://www.travenix.com/wp-content/uploads/2017/08/Banner3.jpg"
+    },
+    {
+      "image":"https://i.ytimg.com/vi/JGyWK7dfeNs/hqdefault.jpg"
+    },
+    {
+      "image":"https://www.nettv4u.com/uploads/25-08-2019/top-10-tv-shows-with-the-highest-fan-following.jpg"
+    },
+    {
+      "image": "https://www.tvguide.com/a/img/resize/d45953b59bc2085d02fa2506d4d3f8ef5cda5c2f/hub/2019/10/18/e86fa142-c52e-4841-9173-65c6f38d2aec/botdbckgrdv10final.jpg?auto=webp&fit=crop&height=1293&width=2300"
+    }
+]
+}
