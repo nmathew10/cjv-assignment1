@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <header>
             <nav className='Nav'>
-                <Link className="NavLink logo" to='/home'>
+                <Link className="NavLink logo" to='/'>
                     StreamNow
                 </Link>
                 
