@@ -22,8 +22,7 @@ const App = () => {
       <dataContext.Provider value={{ movies, setMovies, tvshows, setTvshows }}>
         <BrowserRouter>
           <Routes>
-            <Route path="/home" element={<HomePage />} />
-            <Route path="/" element={<HeroSection />} />
+            <Route path="/" element={<HomePage />} />
             <Route path="/signin" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/movies-and-tv" element={<MovieListingPage />} />
