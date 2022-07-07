@@ -2,7 +2,6 @@ import React from 'react'
 import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import "../assets/css/App.css"
-import HeroSection from './HeroSection';
 import Login from './Login';
 import { useState } from 'react';
 import dataContext from "../context/DigitalVideoStoreContext";
