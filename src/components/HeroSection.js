@@ -8,7 +8,7 @@ const HeroSection = () => {
     const [slides, setSlides] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:5000/slides")
+        fetch("http://localhost:8000/db/slides")
             .then((res) => {
 
                 return res.json()

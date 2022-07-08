@@ -4,6 +4,7 @@ import { useParams} from "react-router-dom";
 import Header from '../components/Header'
 import Footer from '../components/Footer';
 import "../assets/css/App.css"
+import {API_URL} from '../api'
 
 const TvShowDescriptionPage = () => {
     const [tvshow, setTvshow] = useState({
@@ -17,7 +18,7 @@ const TvShowDescriptionPage = () => {
 
     useEffect(() => {
 
-        fetch(`http://localhost:5000/tvshows/${id}`)
+        fetch(API_URL + `/tvshows/${id}`)
             .then((res) => {
 
                 return res.json()

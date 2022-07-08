@@ -2,12 +2,13 @@ import React from 'react'
 import DisplayItem from '../components/DisplayItem';
 import { useEffect, useContext } from 'react';
 import dataContext from "../context/DigitalVideoStoreContext";
+import {API_URL} from '../api'
 
 const FeaturedTvShows = () => {
     const { tvshows, setTvshows } = useContext(dataContext);
 
     useEffect(() => {
-        fetch("http://localhost:5000/tvshows?isFeatured=true")
+        fetch(API_URL + "/tvshows?isFeatured=true")
             .then((res) => {
 
                 return res.json()

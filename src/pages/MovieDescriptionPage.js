@@ -4,6 +4,7 @@ import { useParams} from "react-router-dom";
 import Header from '../components/Header'
 import Footer from '../components/Footer';
 import "../assets/css/App.css"
+import {API_URL} from '../api'
 
 const DescriptionPage = () => {
 
@@ -19,7 +20,7 @@ const DescriptionPage = () => {
 
   useEffect(() => {
 
-    fetch(`http://localhost:5000/movies/${id}`)
+    fetch(API_URL+ `/movies/${id}`)
       .then((res) => {
 
         return res.json()

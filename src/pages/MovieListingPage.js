@@ -4,6 +4,8 @@ import Footer from '../components/Footer';
 import { useEffect, useContext } from 'react';
 import dataContext from "../context/DigitalVideoStoreContext";
 import DisplayItem from '../components/DisplayItem';
+import { API_URL } from '../api';
+
 
 const MovieListingPage = () => {
 
@@ -12,7 +14,7 @@ const MovieListingPage = () => {
 
     useEffect(() => {
 
-        fetch("http://localhost:5000/tvshows")
+        fetch(API_URL + "/tvshows")
             .then((res) => {
 
                 return res.json()
@@ -24,7 +26,7 @@ const MovieListingPage = () => {
                 alert("some")
                 console.log(`Error ${err}`);
             });
-        fetch("http://localhost:5000/movies")
+        fetch(API_URL + "/movies")
             .then((res) => {
 
                 return res.json()
