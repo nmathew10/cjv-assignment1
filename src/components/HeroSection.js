@@ -2,13 +2,14 @@ import React from 'react'
 import { GrFormPrevious, GrFormNext } from "react-icons/gr";
 import { useState, useEffect } from 'react'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import { API_URL } from '../api';
 
 const HeroSection = () => {
 
     const [slides, setSlides] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:8000/db/slides")
+        fetch(API_URL + "/slides")
             .then((res) => {
 
                 return res.json()
