@@ -25,7 +25,7 @@ const FeaturedTvShows = () => {
             <h1 className='left-align'> Featured TV Shows</h1>
             <div className='dis movies'>
                 {tvshows.map((show) => (
-                    <DisplayItem id={show.id} key={show.id} title={show.title} poster={show.poster} type="movie" />
+                    <DisplayItem id={show.id} key={show.id} title={show.title} poster={show.poster} type="movies-and-tv/tv" />
                 ))}
             </div>
         </div>
