@@ -126,6 +126,21 @@
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
       }
 
+      .user-container{
+        background: #fff;
+      width: 500px; 
+      height: 500px;
+      margin: 65px auto;
+      border-color: #fff;
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+              flex-direction: column;
+      border-radius: 4px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+      }
+
     .container_register {
         background: #fff;
         width: 500px;

@@ -14,25 +14,27 @@ const MovieListingPage = () => {
 
     useEffect(() => {
 
-        fetch(API_URL + "/tvshows")
+        fetch("https://digital-video-store-api.herokuapp.com/tvshows")  //fetch(API_URL + "/tvshows") 
             .then((res) => {
 
                 return res.json()
             })
             .then(json => {
-                setTvshows(json);
+                console.log(json.body)
+                setTvshows(json.body);
             })
             .catch((err) => {
                 alert("some")
                 console.log(`Error ${err}`);
             });
-        fetch(API_URL + "/movies")
+            fetch("https://digital-video-store-api.herokuapp.com/movies") //fetch(API_URL + "/movies")
             .then((res) => {
 
                 return res.json()
             })
             .then(json => {
-                setMovies(json);
+                setMovies(json.body);
+                console.log(movies);
             })
             .catch((err) => {
                 console.log(`Error ${err}`);
@@ -46,13 +48,13 @@ const MovieListingPage = () => {
             <div className='dis movies'>
                 {movies.map((movie) => (
 
-                    <DisplayItem id={movie.id} key={movie.id} title={movie.title} poster={movie.poster} type="movie" />
+                    <DisplayItem id={movie.id} key={movie.id} title={movie.title} poster={movie.smallPoster} type="movie" />
                 ))}
             </div>
             <h1 className='left-align'> All TV</h1>
             <div className='dis movies'>
                 {tvshows.map((show) => (
-                    <DisplayItem id={show.id} key={show.id} title={show.title} poster={show.poster} type="tv" />
+                    <DisplayItem id={show.id} key={show.id} title={show.title} poster={show.smallPoster} type="tv" />
                 ))}
             </div>
             <Footer />

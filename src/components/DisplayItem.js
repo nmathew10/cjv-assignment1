@@ -5,7 +5,7 @@ const DisplayItem = ({ id, title, poster, type }) => {
     return (
 
         <div className='image-container d-flex justify-content-start m-4'>
-            <Link to={`${type}/${id}`}>
+            <Link to={`/moviesandtv/${id}`}>
                 <img className='movieposter' alt='movie' src={poster}></img>
             </Link>
         </div>

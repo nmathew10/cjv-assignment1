@@ -9,17 +9,38 @@ const HeroSection = () => {
     const [slides, setSlides] = useState([]);
 
     useEffect(() => {
-        fetch(API_URL + "/slides")
-            .then((res) => {
+        // fetch(API_URL + "/slides")
+        //     .then((res) => {
 
-                return res.json()
-            })
-            .then(json => {
-                setSlides(json);
-            })
-            .catch((err) => {
-                console.log(`Error ${err}`);
-            })
+        //         return res.json()
+        //     })
+        //     .then(json => {
+        //         setSlides(json);
+        //     })
+        //     .catch((err) => {
+        //         console.log(`Error ${err}`);
+        //     })
+
+
+        const slideImages = [
+            {
+                image: "https://www.nettv4u.com/uploads/25-08-2019/top-10-tv-shows-with-the-highest-fan-following.jpg"
+            },
+            {
+                image: "https://www.travenix.com/wp-content/uploads/2017/08/Banner3.jpg"
+            },
+            {
+                image: "https://i.ytimg.com/vi/JGyWK7dfeNs/hqdefault.jpg"
+            },
+            {
+                image: "https://www.nettv4u.com/uploads/25-08-2019/top-10-tv-shows-with-the-highest-fan-following.jpg"
+            },
+            {
+                image: "https://www.tvguide.com/a/img/resize/d45953b59bc2085d02fa2506d4d3f8ef5cda5c2f/hub/2019/10/18/e86fa142-c52e-4841-9173-65c6f38d2aec/botdbckgrdv10final.jpg?auto=webp&fit=crop&height=1293&width=2300"
+            }];
+
+        setSlides(slideImages);
+
     }, [])
 
     const [current, setCurrent] = useState(0);

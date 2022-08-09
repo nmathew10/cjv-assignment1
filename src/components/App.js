@@ -8,7 +8,8 @@ import dataContext from "../context/DigitalVideoStoreContext";
 import Signup from './Signup';
 import MovieListingPage from '../pages/MovieListingPage';
 import MovieDescriptionPage from '../pages/MovieDescriptionPage';
-import TvShowDescriptionPage from '../pages/TvShowDescriptionPage';
+import UserProfile from './UserProfile';
+import SearchResults from './SearchResults';
 
 const App = () => {
 
@@ -25,8 +26,10 @@ const App = () => {
             <Route path="/signin" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/movies-and-tv" element={<MovieListingPage />} />
-            <Route path="/:var/movie/:id" element={<MovieDescriptionPage />} />
-            <Route path="/:var/tv/:id" element={<TvShowDescriptionPage />} />
+            <Route path="/moviesandtv/:id" element={<MovieDescriptionPage />} />
+            <Route path="/user/:id" element={<UserProfile/>}/>
+            <Route path="/media/:word" element={<SearchResults/>} />
+            {/* <Route path="/media/:word" element={<SearchResults key={Date.now()}/>} /> */}
           </Routes>
         </BrowserRouter>
       </dataContext.Provider>
