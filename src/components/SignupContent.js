@@ -27,12 +27,15 @@ const SignupContent = () => {
             body: JSON.stringify(users)
         }
         )  //fetch(API_URL + "/tvshows") 
-            .then((res) => {
-
-                return res.json()
-            })
+        // => {
+        //     console.log(users);
+        //     return res.json()
+            
+        // }
+            .then(res => res.json())
             .then(json => {
                 alert("User created successfully!")
+                console.log(users)
                 setUsers({
                     firstName: "",
                     lastName: "",
