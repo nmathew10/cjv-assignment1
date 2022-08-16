@@ -31,11 +31,12 @@ const LoginContent = () => {
         return res.json()
       })
       .then(json => {
-        alert("Logged in successfully!")
+        
         //setUserId(json.body[0]);
         console.log(userId)
         localStorage.setItem("currentUser", JSON.stringify(json.body[0]));
         navigate(`/user/${json.body[0]}`);
+        alert("Logged in successfully!")
       })
       .catch((err) => {
         alert("something wrong!")
